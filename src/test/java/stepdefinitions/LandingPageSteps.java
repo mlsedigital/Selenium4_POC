@@ -9,12 +9,12 @@ public class LandingPageSteps {
 
     private LandingPage landingPage = new LandingPage(DriverFactory.getDriver());
 
-    @Given("user is able to navigate to homepage")
+    @Given("user navigates to homepage")
     public void user_navigates_to_homepage() throws InterruptedException {
         landingPage.validatePageUrl();
     }
 
-    @And("user is able to validate the landing page header")
+    @And("user validates the landing page header")
     public void user_validates_page_header() throws InterruptedException {
         landingPage.validatePageTitle();
     }

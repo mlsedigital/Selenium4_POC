@@ -10,10 +10,11 @@ import static io.cucumber.junit.platform.engine.Constants.*;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("features")
-@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
+@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty, " +
+        "json:target/JsonReports/cucumber.json, " +
+        "html:target/HTMLReports/cucumber.html")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "stepdefinitions, hooks")
-//@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "(@GetStarted)"
-//)
+
 
 public class TestRunner {
 

@@ -21,7 +21,7 @@ Test are divided into 3 stages:
 You need to open the `src/test/resources/config.properties` file and set the required properties.
 
 browser = Chrome / Safari / Edge
-url = <Set the URL of the application>
+url = <<Set the URL of the application>>
 
 
 

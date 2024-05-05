@@ -20,8 +20,8 @@ Test are divided into 3 stages:
 ## Configuring the Test Environment
 You need to open the `src/test/resources/config.properties` file and set the required properties.
 
-browser = Chrome / Safari / Edge
-url = <<Set the URL of the application>>
+- browser = Chrome / Safari / Edge
+- url = # Set the URL of the application
 
 
 

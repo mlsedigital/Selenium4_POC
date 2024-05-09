@@ -10,6 +10,7 @@ public class LandingPage extends Config_BasePage {
         super(driver);
     }
 
+
     @FindBy(id="user-name")
     private WebElement ENTER_Username;
 
@@ -18,6 +19,7 @@ public class LandingPage extends Config_BasePage {
 
     @FindBy(id="login-button")
     private WebElement BTN_Login;
+
 
     public void validatePageUrl() throws InterruptedException{
         System.out.println("Page URL: " +driver.getCurrentUrl());
@@ -35,5 +37,6 @@ public class LandingPage extends Config_BasePage {
         BTN_Login.click();
         return new ProductsPage(driver);
     }
+
 
 }

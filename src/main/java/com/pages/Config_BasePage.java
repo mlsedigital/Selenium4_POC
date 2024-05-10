@@ -1,11 +1,8 @@
 package com.pages;
 
-import com.qa.factory.DriverFactory;
-import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.Properties;
 
 public class Config_BasePage {
     WebDriver driver;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="tests" thread-count="5" verbose="0">
+<suite name="All Test Suite" parallel="tests" thread-count="5" verbose="4">
     <test name="Test01">
         <parameter name="browserName" value="chrome" />
         <classes>
@@ -8,11 +8,11 @@
         </classes>
     </test>
 
-    <!--test name="Test02">
+    <test name="Test02">
         <parameter name="browserName" value="firefox" />
         <classes>
             <class name="testRunners.TestRunner"/>
         </classes>
-    </test-->
+    </test>
 
 </suite>

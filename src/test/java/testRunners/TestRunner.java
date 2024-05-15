@@ -33,15 +33,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     private ConfigReader configReader;
     static Properties prop;
 
-    @FindBy(id="login-button")
-    private WebElement BTN_Login;
-
-    @FindBy(id="user-name")
-    private WebElement ENTER_Username;
-
-    @FindBy(id="password")
-    private WebElement ENTER_Passwd;
-
 
     @BeforeSuite
     public void getProperty() {
